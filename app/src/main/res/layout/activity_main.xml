@@ -1,0 +1,36 @@
+<?x5DADE2  ml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5DADE2 "
+        android:gravity="center">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/novaterra"
+            android:layout_margin="8dp"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gestión de Propietarios"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:id="@+id/boton_propietarios"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gestión de Inmuebles"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/boton_inmuebles"/>
+
+</LinearLayout>
